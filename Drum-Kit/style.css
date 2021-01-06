@@ -3,6 +3,7 @@ html {
   background: url("https://cdn.pixabay.com/photo/2019/04/13/20/51/music-background-4125573_1280.jpg")
     bottom center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body,
@@ -12,14 +13,19 @@ html {
   font-family: sans-serif;
 }
 
+h2 {
+  font-size: large;
+}
+
 .keys {
   display: flex;
-  min-height: 100vh;
+  min-height: 93vh;
   align-items: center;
   justify-content: center;
 }
 
 .key {
+  display: inline-block;
   border: 0.4rem solid black;
   border-radius: 0.5rem;
   margin: 1rem;
