@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap");
+
 html {
   font-size: 10px;
   background: url("https://cdn.pixabay.com/photo/2019/04/13/20/51/music-background-4125573_1280.jpg")
@@ -13,8 +15,26 @@ html {
   font-family: sans-serif;
 }
 
-h2 {
-  font-size: large;
+.heading {
+  font-size: 6rem;
+  font-weight: 50;
+  text-align: center;
+  border: 3px solid black;
+  width: 40%;
+  background: rgba(0, 0, 0, 0.4);
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: block;
+  font-family: "Hanalei Fill", cursive;
+  letter-spacing: 6px;
+  margin: auto;
+  height: 12vh;
+  color: #e7b910;
+  margin-top: 20px;
+}
+
+span {
+  color: black;
 }
 
 .keys {
